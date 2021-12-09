@@ -38,7 +38,7 @@ def send_msg_with_delay(utc_bias, phone):
     спит до наступления назначенного времени
     после чего отправляет письмо на номер
     """
-    pause.minutes(time_to_wait(suppl_utc_bias=utc_bias))
+    pause.seconds(time_to_wait(suppl_utc_bias=utc_bias))
     """
     ...
     ### Send msg to supplier`s number.
