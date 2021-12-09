@@ -1,0 +1,4 @@
+__pycache__/
+.vscode/
+venv_msg/
+send_msg/__pycache__/
